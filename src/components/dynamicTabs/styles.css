@@ -1,0 +1,33 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  padding: 8px;
+}
+.tab-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.tab-heading-item {
+  display: inline-flex;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: rgb(165, 99, 165);
+}
+.tab-heading-item.active {
+  border-color: black;
+  background: rgb(153, 180, 104);
+  color: black;
+}
+.tab-tabContent {
+  padding: 20px 10px;
+  height: 300px;
+  overflow: auto;
+  background-color: white;
+}
